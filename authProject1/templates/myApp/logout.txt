@@ -1,0 +1,15 @@
+{%extends 'myApp/parent.html'%}
+<html lang="en" dir="ltr">
+<body>
+  {%block for_child%}
+  <div class='jumbotron'>
+  <div class="container" align="center">
+ <h1 style="color:red">Than you for taing up the test</h2>
+<h2>Login again</h2>
+    <input type="submit" class="btn btn-primary "value="submit">
+ </div>
+</div>
+ {%endblock%}
+</body>
+</html>
+
